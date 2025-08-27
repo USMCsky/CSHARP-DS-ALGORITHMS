@@ -5,7 +5,7 @@
 int size = 8;
 bool t = true;
 bool f = false;
-bool[|] maze =
+bool[,] maze =
 {
     { t, f, t, f, f, t, t, t },
     { t, t, t, t, t, f, t, f },
@@ -54,3 +54,6 @@ void Print()
         Console.WriteLine();
     }
 }
+
+Console.WriteLine("Press Enter to exit...");
+Console.ReadLine();
